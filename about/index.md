@@ -10,4 +10,4 @@ This blog focuses on a first-person account of preparing for the **[Java SE I Ex
 
 This **site** was built with **[Eleventy](https://www.11ty.dev/)**, a really neat project for quickly scaffolding static sites. Pages were generated from **[Nunjucks](https://mozilla.github.io/nunjucks/)**, a powerful templating language for JavaScript. Site was deployed on **[Netlify](http://www.netlify.com)** using their serverless backend services. 
 
-The author, **[Benjamin Blocksom](http://benjaminblocksom.com)**, is a full stack developer also currenty working certification for Linux Administration (LPI Linux Essentials) and Amazon AWS Certified Solutions Architect (SAA-C02). 
+The author, **[Benjamin Blocksom](http://benjaminblocksom.com)**, is a full stack developer also currenty pursuing certification in Linux Administration (LPI Linux Essentials) and as an Amazon AWS Certified Solutions Architect (SAA-C02). 
