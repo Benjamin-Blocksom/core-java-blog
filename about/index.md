@@ -6,8 +6,8 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
-Recently I started studying for the **[Java SE I Exam(1ZO-808)](https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808)** and am about 3-4 weeks away from being properly prepared in order to pass. In the process I wrote a *ton* of code snippets that focus on some element of the core Java language. This is a writing collection of how I approached this task and compose my own code.
+This blog focuses on a first-person account of preparing for the **[Java SE I Exam(1ZO-808)](https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808)**. Early on I realized the best way to do this was by writing a *ton* of code snippets that focus on some element of the core Java language. You can see the full repository [here](https://github.com/Benjamin-Blocksom/java-oca-prep). This blog is a selected collection of my approach to this task and composing code.
 
 This **site** was built with **[Eleventy](https://www.11ty.dev/)**, a really neat project for quickly scaffolding static sites. Pages were generated from **[Nunjucks](https://mozilla.github.io/nunjucks/)**, a powerful templating language for JavaScript. Site was deployed on **[Netlify](http://www.netlify.com)** using their serverless backend services. 
 
-The author, **Benjamin Blocksom**, is a full stack developer also currenty working certification for Linux Administration (LPI Linux Essentials) and Amazon AWS Certified Solutions Architect (SAA-C02). 
+The author, **[Benjamin Blocksom](http://benjaminblocksom.com)**, is a full stack developer also currenty working certification for Linux Administration (LPI Linux Essentials) and Amazon AWS Certified Solutions Architect (SAA-C02). 
