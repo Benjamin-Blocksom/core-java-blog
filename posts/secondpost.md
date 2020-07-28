@@ -1,18 +1,13 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: Taking a win.
+description: Passing the LPI Linux Essentials exam.
+date: 2020-07-28
 tags:
   - number-2
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Today I sat for and passed the LPI Linux Essentials certification exam. This is the first exam I've sat for and I am walking away with a good feeling about making progress.
 
-## Section Header
+When I studied music, one of my teachers showed me an interesting technique for evaluation. We were constantly setting and working towards small goals along larger paths of improvement. If too much time went by without any progress, we would re-evaluate what was going on and break it down into smaller pieces. But whenever a goal was met, he would tell me to "take a win". Positive reinforcement is absolutely necessary in the learning path, otherwise we can get frustrated and even abandon our studies. 
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+So today I am "taking a win" and happy about my accomplishment. These feel like baby steps towards my other certification goals, but it's important to take them and celebrate the positive moments. 
