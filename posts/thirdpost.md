@@ -1,5 +1,5 @@
 ---
-title: Ain't no no-args constructors in wrapper classes
+title: Why don't wrapper classes have no-args constructors?
 description: 
 date: 2018-08-24
 tags:
