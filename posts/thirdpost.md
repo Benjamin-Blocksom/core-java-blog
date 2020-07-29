@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-Here are two ways to distract you in a question about using wrapper classes: call a no-args constructor, or a non-static method with no instantiation of an object of that wrapper class. Example?
+Here are two ways to distract you in a question about using wrapper classes: call a no-args constructor, or a non-static method with no instantiation of an object of that wrapper class. 
 
 ```java
 public class WrapperDistractors {
@@ -31,4 +31,5 @@ So, *[why don't wrapper classes have no-args constructors?](https://stackoverflo
 
 1. In order to modify an argument passed to a method we need an object.  Wrapper classes can convert primitive data types, which are pass-by-value, into objects.
 2. The `java.util` package only handles objects, so wrapper classes help here too.
-3. 
+3. Using data structures in the Collection framework such as ArrayList and Vector which do not store primitive types.
+4. An object is needed to support synchronization in multi-threading.
