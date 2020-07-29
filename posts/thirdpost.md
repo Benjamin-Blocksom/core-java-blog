@@ -7,8 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-Here are two ways to distract you in a question about using wrapper classes: call a no-args constructor, or 
-a non-static method with no instantiation of an object of that wrapper class. Example?
+Here are two ways to distract you in a question about using wrapper classes: call a no-args constructor, or a non-static method with no instantiation of an object of that wrapper class. Example?
 
 ```java
 public class WrapperDistractors {
