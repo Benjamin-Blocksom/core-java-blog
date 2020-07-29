@@ -1,28 +1,35 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
+title: Ain't no no-args constructors in wrapper classes
+description: 
 date: 2018-08-24
 tags:
-  - second-tag
+  - data-types-tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-``` js/2/4
-// this is a command
-function myCommand() {
-	let counter = 0;
+Here are two ways to distract you in a question about using wrapper classes: call a no-args constructor, or 
+a non-static method with no instantiation of an object of that wrapper class. Example?
 
-	counter++;
-
+```java
+public class WrapperDistractors {
+	public static void main (String[]args){
+		String foo = "42";
+		long bar = Long.parseLong(foo);
+//		long baz = (new Long()).parseLong(foo); // no suitable constructor
+//		long qux = Long.longValue(foo); // non-static method
+		long quux = new Long(foo);
+		long corge = Long.valueOf(foo).longValue();	
+		System.out.println(Long.valueOf(baz));
+	
+		
+	}
 }
-
-// Test with a line break above this line.
-console.log('Test');
 ```
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+So, *[why don't wrapper classes have no-args constructors?](https://stackoverflow.com/questions/874529/why-dont-java-wrapper-classes-have-no-arg-constructors)* Because they are immutable. Your one big chance at assigning a value is on construction. 
 
-## Section Header
+[Geeks for geeks](https://www.geeksforgeeks.org/wrapper-classes-java/) points out the following use cases for having wrapper classes:
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+1. In order to modify an argument passed to a method we need an object.  Wrapper classes can convert primitive data types, which are pass-by-value, into objects.
+2. The `java.util` package only handles objects, so wrapper classes help here too.
+3. 
