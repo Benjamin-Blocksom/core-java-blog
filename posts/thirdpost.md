@@ -31,5 +31,5 @@ So, *[why don't wrapper classes have no-args constructors?](https://stackoverflo
 
 1. In order to modify an argument passed to a method we need an object.  Wrapper classes can convert primitive data types, which are pass-by-value, into objects.
 2. The `java.util` package only handles objects, so wrapper classes help here too.
-3. Using data structures in the Collection framework such as ArrayList and Vector which do not store primitive types.
+3. Using data structures in the Collection framework such as `ArrayList` and `Vector` which do not store primitive types.
 4. An object is needed to support synchronization in multi-threading.
