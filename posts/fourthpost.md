@@ -1,15 +1,17 @@
 ---
-title: This is my fourth post.
-description: This is a post on My Blog about touchpoints and circling wagons.
-date: 2018-09-30
-tags: second-tag
+title: The plateau.
+description: Objective-wise tests and the plateau.
+date: 2020-08-21
+tags: Java-OCA-08
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I think it's worth reminding myself that the main purpose of this blog is to keep an honest record of my preparation for the Java OCA-8 exam. Honestly, I'd love to think I had a slam dunk and that my system brought me from failing to passing in the space of 3 months. But the objective truth shows that I started out scoring in the 20-30% range (as assessed by Enthuware practice exams) and that now I am in the 45-55% range. At the very least, this means that I still have to make a solid effort to bring myself into passing range. It also shows that I may have reached a plateau with my approach and will need to change something in order to get to the next level.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+It's difficult to come to grips with this since a few of my colleagues from the corporate boot camp already passed the exam. Additionally, since I was placed on furlough I feel the stressful demand of gaining employment and have equated passing this exam to being a key that end. Further, being at the plateau stage makes me question the worth of my effort and whether the time spent will actually yield anything.
 
-## Section Header
+So that's the navel-gazing. Let's now look at the code I got confused on from the objective-wise test on data types.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+## Data Types
+
+**Garbage Collection**
 

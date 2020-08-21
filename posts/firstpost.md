@@ -3,7 +3,7 @@ title: 'Different folks: Local variables in loop constructs'
 description: Local variables in loop constructs.
 date: 2020-05-01
 tags:
-  - another-tag
+  - Java-OCA
 layout: layouts/post.njk
 ---
 
